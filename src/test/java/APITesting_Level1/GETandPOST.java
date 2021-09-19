@@ -1,4 +1,4 @@
-package test;
+package APITesting_Level1;
 
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;

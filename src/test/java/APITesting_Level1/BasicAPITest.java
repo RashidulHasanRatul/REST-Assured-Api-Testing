@@ -1,4 +1,4 @@
-package test;
+package APITesting_Level1;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

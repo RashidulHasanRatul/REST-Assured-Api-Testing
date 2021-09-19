@@ -1,5 +1,6 @@
 package test;
 
+import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
@@ -45,11 +46,14 @@ public class GETandPOST {
         baseURI="https://reqres.in/api";
 
         given()
+                .header("Content-Type", "application/json")
+                .contentType(ContentType.JSON)
                 .body(request.toJSONString())
                 .when()
                 .post("/users")
                 .then()
-                .statusCode(201);
+                .statusCode(201)
+                .log().all();
 
     }
 }

@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class testExample {
+public class BasicAPITest {
 
     @Test
     public void fristTest() {

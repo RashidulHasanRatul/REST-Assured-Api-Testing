@@ -3,11 +3,10 @@ import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
-import java.util.HashMap;
-import java.util.Map;
+
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+
 public class PUT_PATCH_DELETE {
 
     @Test

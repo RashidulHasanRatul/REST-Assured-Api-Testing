@@ -1,5 +1,5 @@
 package APITesting_Level1;
-import io.restassured.RestAssured;
+
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
@@ -14,4 +14,6 @@ public class SOAP_xml_Request {
                .contentType("text/xml").
                accept(ContentType.XML);
     }
+
+
 }

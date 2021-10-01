@@ -3,10 +3,8 @@ package APITesting_Level1;
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-
 import java.util.HashMap;
 import java.util.Map;
-
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
@@ -41,8 +39,6 @@ public class GETandPOST {
         request.put("Name","Rashiul Hasan");
         System.out.println(request);
 
-
-
         baseURI="https://reqres.in/api";
 
         given()
@@ -56,4 +52,6 @@ public class GETandPOST {
                 .log().all();
 
     }
+
+
 }

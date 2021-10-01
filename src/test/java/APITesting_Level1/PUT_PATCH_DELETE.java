@@ -65,7 +65,6 @@ public class PUT_PATCH_DELETE {
                 .then()
                 .statusCode(200)
                 .log().all();
-
     }
 
 

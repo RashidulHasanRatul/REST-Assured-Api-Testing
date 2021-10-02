@@ -3,8 +3,6 @@ import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
-
-
 import static io.restassured.RestAssured.*;
 
 public class PUT_PATCH_DELETE {
@@ -51,6 +49,7 @@ public class PUT_PATCH_DELETE {
                 .then()
                 .statusCode(200)
                 .log().all();
+
 
     }
 
